@@ -38,8 +38,15 @@ fun main() {
     } */
 
     //exercicio 05
- val inteiro: List<Int> = listOf(1, 5 , 6, 8 , 6 ,4 ,7 ,5 ,5 ,8 ,9 , 44 ,88 ,44 ,66 ,33)
+ /*val inteiro: List<Int> = listOf(1, 5 , 6, 8 , 6 ,4 ,7 ,5 ,5 ,8 ,9 , 44 ,88 ,44 ,66 ,33)
  for(i in inteiro.indices)
-  println(inteiro[i])
+  println(inteiro[i])*/
+
+    //exercicio 06
+     var soma = 0
+     val inteiro: List<Int> = listOf(1, 5 , 6, 8 , 6 ,4 ,7 ,5 ,5 ,8 ,9 , 44 ,88 ,44 ,66 ,33)
+     for(i in inteiro.indices)
+      soma = soma + inteiro[i]
+      println(soma)
  }
 
