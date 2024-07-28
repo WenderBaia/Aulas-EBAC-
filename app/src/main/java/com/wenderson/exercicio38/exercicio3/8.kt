@@ -1,6 +1,7 @@
 package com.wenderson.exercicio38.exercicio3
 
 import kotlin.collections.indices
+import kotlin.time.times
 import kotlin.collections.indices as indices1
 
 class exercicio {
@@ -31,22 +32,25 @@ fun main() {
     println(parImpar)*/
 
      //exercicio 4
-  /*var array : IntArray = IntArray(40)
-   for(i in array.indices){
-    array[i] = i * 1
-    println(array[i])
-    } */
+    /*var array: IntArray = IntArray(40)
+        for(i in array.indices){
+            array[i] = i * 1
+        println(array[i])
+    }*/
 
-    //exercicio 05
- /*val inteiro: List<Int> = listOf(1, 5 , 6, 8 , 6 ,4 ,7 ,5 ,5 ,8 ,9 , 44 ,88 ,44 ,66 ,33)
- for(i in inteiro.indices)
-  println(inteiro[i])*/
 
-    //exercicio 06
-     var soma = 0
-     val inteiro: List<Int> = listOf(1, 5 , 6, 8 , 6 ,4 ,7 ,5 ,5 ,8 ,9 , 44 ,88 ,44 ,66 ,33)
-     for(i in inteiro.indices)
-      soma = soma + inteiro[i]
-      println(soma)
- }
+    //exercicio 5
+    // for(i in 1..99 step 1){
+    // var soma = 0
+    // println(i)
+    // }
+
+    var soma = 0
+    for(i in 1..99 step 1) {
+        soma = soma + i
+        println(soma)
+    }
+    println("O resultado total da lista é $soma.")
+}
+
 
