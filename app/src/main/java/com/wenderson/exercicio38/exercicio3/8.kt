@@ -46,11 +46,13 @@ fun main() {
     // }
 
     var soma = 0
-    for(i in 1..99 step 1) {
-        soma = soma + i
+    val array = IntArray(99)
+    for(i in array.indices) {
+        array[i] = i + 1
+        soma += array[i]
         println(soma)
     }
-    println("O resultado total da lista é $soma.")
+    println("A soma total dos valores é: $soma")
 }
 
 
