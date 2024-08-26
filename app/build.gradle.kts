@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.wenderson.exercicio38"
+    namespace = "com.wenderson.exercisefunctions"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.wenderson.exercicio38"
+        applicationId = "com.wenderson.exercisefunctions"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

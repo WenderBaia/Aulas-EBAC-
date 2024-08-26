@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Exercicio 3.8"
+rootProject.name = "exerciseFunctions"
 include(":app")
- 
